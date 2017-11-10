@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>BetaV-Prakash</title>
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/prakash.css">
+
+	
+</head>
+
+<script>
+	$(document).ready(function(){
+		// Add smooth scrolling to all links in navbar + footer link
+		$(".navbar a, footer a[href='#pageTop']").on('click', function(event) {
+	
+		// Prevent default anchor click behavior
+			event.preventDefault();
+	
+			// Store hash
+			var hash = this.hash;
+	
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 700, function(){
+	
+			// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			});
+		});
+	})
+</script>
+
+<body id="pageTop">
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNav">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<!-- <a class="navbar-brand" href="#pageTop"><img class="img-responsive" src="images/brand.png" /></a> -->
+			</div>
+			<div class="collapse navbar-collapse" id="myNav">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#ex">EXPERIENCES</a></li>
+					<li><a href="#sk">SKILLS</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="jumbotron text-center cover">
+		<div class="container">
+				<br><br><br><br><br>
+				<h1>Prakash Choudhary</h1>
+				<br>
+        		<h3>Data Analyst | Programmer</h3>
+				<br><br><br><br>
+      	</div>
+	</div>
+
+<div id="about" class="container-fluid">
+	<h2 class="text-center">Profile</h2>
+	<div class="row">
+		<div class="col-md-4">
+			<h3>About</h3>
+			<p>I am a Data Analyst. I like to dive deep into the data to understand it. I use my programming skills to automate process and increse the productivity. I love to work on different databases. I always try to learn new technolgies. Also I like woking in a team and work innovatively.</p>
+		</div>
+		<div class="col-md-4">
+			<center><img class="img-responsive img-circle" src="images/pc.jpg"></center>
+		</div>
+		<div class="col-md-4">
+			<h3>Details</h3>
+			<p>
+				<strong>Name:</strong>
+				<br>
+				Prakash Choudhary
+				<br>
+				<strong>Age:</strong>
+				<br>
+				24 years
+				<br>
+				<strong>Hobbies:</strong>
+				<br>
+				Reading
+			</p>
+		</div>
+	</div>
+</div>	
+
+<div id="ex" class="container-fluid bg-grey">
+  <h2 class="text-center">Experience</h2>
+  <h3>Education</h3>
+  <div class="row">
+	
+	<div class="col-md-4 ">
+		<h4>Rajasthan Technical University</h4>
+		
+	</div>
+	<div class="col-md-8">
+		<p>
+			<strong>Bachelor of Technology (Computer Science and Engineering)</strong>
+			<span>Jodhpur</span>
+		</p>
+		<p> Aug-2010 - May-2014</p>
+	</div>
+  </div>
+  <div class="row">
+	
+	<div class="col-md-4 ">
+		<h4>Varun Bharti Sen. Sec. School</h4>
+		
+	</div>
+	<div class="col-md-8">
+		<p>
+			<strong>Intermidiate</strong>
+			<span>Jodhpur</span>
+		</p>
+		<p> Aug-2009 - May-2010</p>
+	</div>
+  </div>
+  <div class="row">
+	
+	<div class="col-md-4 ">
+		<h4>Varun Bharti Sen. Sec. School</h4>
+		
+	</div>
+	<div class="col-md-8">
+		<p>
+			<strong>High School</strong>
+			
+			<span>Jodhpur</span>
+		</p>
+		<p> Aug-2007 - May-2008</p>
+	</div>
+  </div>
+  <h3>Careers</h3>
+  <div class="row">
+	
+	<div class="col-md-6">
+		<a href="#careerModal1" class="" data-toggle="modal">
+		<div class="caption">
+			<h4>Data Quality</h4>
+		</div>
+		<img src="images/IA.png" class="img-responsive"/>
+		</a>
+	</div>
+	<!-- <div class="col-md-6">
+		<a href="#careerModal2" class="" data-toggle="modal">
+			<div class="caption">
+				<h4>Automation</h4>
+			</div>
+			<img src="images/automation.png" class="img-responsive"/>
+		</a>
+	</div> -->
+  </div>
+</div>
+
+
+<div id="sk" class="container-fluid">
+  <h2 class="text-center">Skills</h2>
+  <div class="row">
+		<div class="col-md-6">
+			<h3>Technologies</h3>
+			<ul>
+				<li>
+					<span>SQL</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>Datawarehousing/ETL</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>Databases</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>MoongoDB</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>Python</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h3>Tools</h3>
+				<ul>
+				<li>
+					<span>PowerBI</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>IBM Information Analyzer</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>Microsoft BI</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>Microsoft Excel</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+				<li>
+					<span>SQL Server</span>
+					<span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+						<span class="glyphicon glyphicon-star"></span>
+					</span>
+				</li>
+			</ul>
+		</div>
+  </div>
+</div>
+
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">Contact</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <h4>Contact details</h4>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Gurgaon, HR</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 7411156024</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> er.prakash.pca@gmail.com</p> 
+	  
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>	
+
+<div id="googleMap" style="height:300px;width:100%;">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+		var myCenter = new google.maps.LatLng(28.474573, 77.083381);
+
+		function initialize() {
+			var mapProp = {
+				center:myCenter,
+				zoom:12,
+				scrollwheel:false,
+				draggable:false,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	
+			var marker = new google.maps.Marker({
+				position:myCenter,
+			});
+
+			marker.setMap(map);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+</div>
+
+<footer class="container-fluid text-center">
+	<div class="container">
+		<div class="row">
+			<a href="#pageTop">
+				<span class="glyphicon glyphicon-chevron-up icon"></span>
+			</a>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+			<p><a href="resume/resume.doc" Title="Download Resume"><span class="glyphicon glyphicon-save"></span>Download Resume</a></p>
+			</div>
+			<div class="col-md-6">
+			 <ul class="list-inline">
+				<li>Linked in</li>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Github</li>
+			 </ul>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<p>Designed & Devloped By : Prakash</p>
+		</div>
+	</div> 
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#pageTop">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+<div class="modal fade" id="careerModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Data Quality</h2>
+                            <img src="images/IA.png" class="img-responsive img-centered" alt="">
+                            <p>AIG being a century old company most of the data used by them were not up to the mark and included lots of discrepancies as they were using so many legacy systems. Due to which they were suffering a loss of billions USD on annual basis. My work was to find those discrepancies and do a root cause analysis in the data and report them to data owners, data stewards and the executives. When I got into the project there was lots of discrepancy between the business requirement and what was being delivered to them I worked along with the business partner and the team over here to identify the loop holes and get the process implemented properly from the beginning in accordance with the business requirement.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">AIG</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">March 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Tools:
+                                    <strong><a href="http://startbootstrap.com">IBM IA</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="modal fade" id="careerModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Automation</h2>
+                            <img src="images/automation.png" class="img-responsive img-centered" alt="">
+                            <p>Description
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">AIG</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">March 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Tools:
+                                    <strong><a href="http://startbootstrap.com">Excel, VBA</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
