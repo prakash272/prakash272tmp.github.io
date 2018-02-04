@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Enter Data</title>
+  <link rel="stylesheet" href="css/prakash2.css">
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.cookie.js"></script>
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script type="text/javascript" src="js/base64.js"></script>
+  <script data-cfasync="false" src="js/data.js"></script>
+  <!-- <script  src="js/jQuery.twFile.js"></script> -->
+</head>
+
+<body>
+<div class="form-style-5">
+  <form id="gform" method="post" onsubmit="event.preventDefault(); handleFormSubmit()" action="https://script.google.com/macros/s/AKfycbywUq0uoiWomeSMo2Udax0V66qmsUk6wwqHInhtF55XXdrwJILC/exec">
+    <fieldset>
+      <legend><span class="number">1</span> Your name</legend>
+      <input type="text" name="entry_by" id="username" placeholder="Enter Your name *">
+      <input type="text" name="party_name" id="partyname" placeholder="Enter pname *">
+      <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+      <textarea name="address" id="address" placeholder="Enter address *"></textarea>
+      <textarea name="extra_details" id="details" placeholder="More Details *"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend><span class="number">2</span> Info</legend>
+      <div class="row" id="memberdata">
+        <div class="row">
+          <div class="col-sm-4">
+            <input type="text" name="member_name1" id="membername1" placeholder="member name *">
+          </div>
+          <div class="col-sm-4">
+            <input type="text" name="head_name1" id="headname1" placeholder="belong to name *"> 
+          </div>
+          <div class="col-sm-4">
+            <select id="job_type1" name="job_type1">
+            <optgroup label="Normal">
+              <option value="Normal-Full-Day">Full-Day</option>
+              <option value="Normal-Half-Day">Half-Day</option>
+              <option value="Normal-Night">Night</option>
+              <option value="Normal-Day+Night">Day+Night</option>
+            </optgroup>
+            <optgroup label="VIP">
+              <option value="VIP-Local">Local</option>
+              <option value="VIP-Imported">Imported</option>
+            </optgroup>
+            <optgroup label="VIP-Couple">
+              <option value="VIP-Couple-Local">Local</option>
+              <option value="VIP-Couple-Imported">Imported</option>
+            </optgroup>
+            </select> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-info" id="add_more">Add more</button>   
+      </div>
+    </fieldset>
+    <br>
+    <input type="submit" value="Apply" id="submit" />
+  </form>
+</div>
+</body>
+</html>
